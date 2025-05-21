@@ -96,8 +96,8 @@ function App() {
                         </thead>
                         <tbody>
                         {supplies.map((item, index) => (
-                            <tr key={index} style={{ borderBottom: '1px solid #777', cursor: 'pointer' }} onClick={() => handleItemClick(item)}>
-                                <td style={{ padding: '8px', textAlign: 'left' }}>{item.name}</td>
+                            <tr key={index} style={{ borderBottom: '1px solid #777', cursor: 'pointer' }} >
+                                <td style={{ padding: '8px', textAlign: 'left' }} onClick={() => handleItemClick(item)}>{item.name}</td>
                                 <td style={{ padding: '8px', textAlign: 'left' }}>{item.type}</td>
                                 <td style={{ padding: '8px', textAlign: 'right' }}>{item.quantity}</td>
                                 <td style={{ padding: '8px', textAlign: 'center' }}>
