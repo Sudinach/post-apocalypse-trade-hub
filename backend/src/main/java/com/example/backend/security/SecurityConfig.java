@@ -9,6 +9,11 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
+/**
+ * Configuration class for Spring Security settings in the backend application.
+ * This class defines how the authentication and authorization are handled for web requests.
+ */
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
@@ -22,6 +27,12 @@ public class SecurityConfig {
                 .build();
         return new InMemoryUserDetailsManager(user);
     }
+
+    /**
+     * If we had more time, use details would be fetched from a database and passwords
+     * would be securely encoded. We would also implement mechanisms for user registration and role management.
+     */
+
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {

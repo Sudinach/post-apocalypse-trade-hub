@@ -1,5 +1,10 @@
 package com.example.backend.controller;
 
+/**
+ * REST Controller for managin and retrieving supplies
+ * This controller handles requests under the "/api/supplies" path.
+ */
+
 import com.example.backend.model.SupplyItem;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

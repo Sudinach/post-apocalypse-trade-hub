@@ -1,5 +1,11 @@
 package com.example.backend.model;
 
+/**
+ * Represents a tradable supply item in the tradehub. This class
+ * holds information about the item's name, type, quantity and url of
+ * the image
+ */
+
 public class SupplyItem {
     private String name;
     private String type;
