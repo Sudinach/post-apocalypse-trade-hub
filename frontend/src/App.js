@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './index.css'; // Ensure your CSS is imported
+import './index.css';
 
 function App() {
     const [username, setUsername] = useState('');
