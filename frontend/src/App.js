@@ -40,8 +40,7 @@ function App() {
         setUsername('');
         setPassword('');
         setError('');
-        setSelectedItem(null); // Clear selected item on logout
-    };
+        setSelectedItem(null);
 
     const handleItemClick = (item) => {
         setSelectedItem(item);
