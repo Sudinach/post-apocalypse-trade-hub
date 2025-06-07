@@ -1,9 +1,9 @@
 # Post Apocalypse Trading Hub
-Developer : Sudin Acharya
 
 ## Overview
 
-This is a s all Coding challenge, secure and password protected Trade Hub demonstrating core functionality for user authentication
+This application was developed for a part of Coding challenge
+It is a secure and password protected Trade Hub demonstrating core functionality for user authentication
 and displaying a table for tradable supplies.
 
 ## Features
